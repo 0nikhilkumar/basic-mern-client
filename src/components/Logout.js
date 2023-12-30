@@ -8,7 +8,7 @@ const Logout = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/logout", {
+    fetch("https://basic-mern-server.onrender.com/logout", {
       method: "GET",
       headers: {
         Accept: "application/json",

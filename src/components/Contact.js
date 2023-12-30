@@ -9,7 +9,7 @@ const Contact = () => {
   });
   const getContactPage = async () => {
     try {
-      const res = await fetch("/getdata", {
+      const res = await fetch("https://basic-mern-server.onrender.com/getdata", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
